@@ -1,0 +1,49 @@
+# Environment / secrets — never commit
+.env
+.env.*
+*.env
+.envrc
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*_secret*
+*_token*
+*.credentials
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (in case scripts/tests are added later)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.pytest_cache/
+.venv/
+venv/
+
+# Logs / temp
+*.log
+*.tmp
+tmp/
+temp/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Claude / Skill working files
+.claude/local/
+*.bak
